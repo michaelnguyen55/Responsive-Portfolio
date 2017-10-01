@@ -1,0 +1,347 @@
+header {
+	background-color: white;
+	margin-bottom: 30px;
+	width: 100%;
+	border-bottom: 2px solid #cccccc;
+}
+
+body {
+	background-image: url("../images/corkwallet.png");
+	display: flex;
+ 	flex-direction: column;
+}
+
+html, body {
+  height: 100%;
+}
+
+footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	background-color: #666666;
+	padding: 30px;
+	color: white;
+    border-top: 7px solid #4aaaa5;
+  	margin-top: 20px;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+#middle, #top {
+	max-width: 960px;
+	width: 100%;
+	margin: auto;
+	clear: both;
+	overflow: auto;
+}
+
+.headerHeading {
+	background-color: #4aaaa5;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+	max-width: 250px;
+	padding: 15px;
+	float: left;
+}
+
+
+
+/*---------- Nav Bar ----------*/
+nav a {
+	color: #aaaaaa;
+	text-decoration: none;
+	-webkit-transition: all 0.20s ease-in-out;
+	-moz-transition: all 0.20s ease-in-out;
+	-ms-transition: all 0.20s ease-in-out;
+	-o-transition: all 0.20s ease-in-out;
+	outline: none;
+}
+
+nav a:visited {
+	color: #aaaaaa;
+}
+
+nav a:hover {
+	color: #dddddd;
+}
+
+nav a:active {
+	color: #777777;
+}
+
+nav {
+	margin:20px 60px 0px 0px;
+	color: #eeeeee;
+	float: right;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height:30px;
+}
+/*---------- End Nav Bar ----------*/
+
+
+
+/*---------- Main Content ----------*/
+.contentHeading {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	font-weight: bold;
+	color: #4aaaa5;
+}
+
+.mainContent {
+	max-width: 600px;
+	width: 80%;
+	background-color: white;
+	border: 2px solid #cccccc;
+	float: left;
+	padding: 20px 25px 20px 25px;
+	margin-right: 40px;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	color: #777777;
+	line-height:30px;
+}
+
+hr {
+	border: 0.5px solid #dddddd;
+}
+/*---------- End Main Content ----------*/
+
+
+
+/*---------- Aside ----------*/
+aside {
+	text-align: center;
+	float: left;
+	background-color: white;
+	border: 2px solid #cccccc;
+	width: 100%;
+	max-width: 200px;
+	min-height: 125px;
+	padding: 20px 25px 20px 25px;
+}
+
+.asideHeading {
+	margin-top:13px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4aaaa5
+}
+
+.icons {
+	width: 100%;
+}
+
+.icons img {
+    margin: 10px 0px 0px 13px;
+	max-width: 50px;
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+/*---------- End Aside ----------*/
+
+
+
+/*---------- Portfolio Gallery ----------*/
+.gallery {
+	width: 100%;
+}
+
+.gallery img {
+	width: 100%;
+	height: 210px;
+	border: 1px solid #4aaaa5;
+}
+
+.imageContainer {
+	max-width: 260px;
+	width: 100%;
+	margin: 20px 0px 0px 25px;
+	position: relative;
+	float: left;
+}
+
+.imageContainer a {
+	-webkit-transition: all 0.20s ease-in-out;
+	-moz-transition: all 0.20s ease-in-out;
+	-ms-transition: all 0.20s ease-in-out;
+	-o-transition: all 0.20s ease-in-out;
+}
+
+.imageContainer a:hover{
+	opacity: 0.7;
+}
+
+.galleryText{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	background-color: #4aaaa5;
+	width: 100%;
+	position: absolute;
+	left: 1px;
+	bottom: 25px;
+	float: left;
+}
+/*---------- End Portfolio Gallery ----------*/
+
+
+
+/*---------- Contact Form ----------*/
+input[type=text] {
+	max-width: 582px;
+	width: 100%;
+}
+
+textarea {
+	min-height: 80px;
+	max-height: 300px;
+	max-width: 582px;
+	width: 100%;
+}
+
+input[type=text], textarea {
+	box-sizing : border-box;
+	display: block;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 14px;
+	-webkit-transition: border 0.20s ease-in-out, box-shadow 0.20s ease-in-out;
+	-moz-transition: border 0.20s ease-in-out, box-shadow 0.20s ease-in-out;
+	-ms-transition: border 0.20s ease-in-out, box-shadow 0.20s ease-in-out;
+	-o-transition: border 0.20s ease-in-out, box-shadow 0.20s ease-in-out;
+	outline: none;
+	border: 1px solid #dddddd;
+	padding: 5px 8px 5px 8px;
+} 
+
+input[type=text]:hover, textarea:hover{
+	border: 1px solid #bbbbbb;
+}
+
+input[type=text]:focus, textarea:focus {    
+	border: 1px solid #4aaaa5;
+	box-shadow: 0 0 3px #4aaaa5; 
+}
+
+input[type=submit] {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	color: white;
+    padding: 8px 20px 8px 20px; 
+    background-color: #4aaaa5; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-transition: all 0.20s ease-in-out;
+	-moz-transition: all 0.20s ease-in-out;
+	-ms-transition: all 0.20s ease-in-out;
+	-o-transition: all 0.20s ease-in-out;
+	outline: none;
+}
+
+input[type=submit]:hover {
+	background-color: #4cccc5;
+}
+/*---------- End Contact Form ----------*/
+
+
+@media screen and (max-width: 980px) {
+
+	.headerHeading{
+		margin-left: 100px;	
+	}
+
+	.mainContent{
+		width: 40%;
+		margin-left: 100px;	
+	}
+
+	#aboutImage{
+		width: 100%;
+		height: 100%;
+	}
+	
+  }
+
+@media screen and (max-width: 768px) {
+
+	.headerHeading{
+		margin-left: 30px;	
+	}
+
+	.mainContent{
+		width: 85%;
+		margin-left: 30px;
+	}
+
+	#aboutImage{
+		width: 40%;
+		height: 100%;
+	}
+ 
+    aside{
+    	text-align: left;
+    	margin-left: 30px;
+    	max-width: 600px;
+    	width: 85%;
+    }
+  }
+
+@media screen and (max-width: 640px) {
+	
+	#aboutImage{
+		width: 100%;
+		height: 100%;
+	}
+
+	.mainContent{
+		width: 90%;
+		margin-left: 0px;
+	}
+
+	.headerHeading {
+		max-width: 100%;
+		width: 95%;
+		margin: 0px;
+	}
+
+	.imageContainer {
+		max-width: 500px;
+	}
+
+	.gallery img{
+		height: 300px;
+	}
+
+	.galleryText{
+		font-size: 50px;
+	}
+
+	nav {
+		float: none;
+		text-align: center;
+		margin: 0;
+	}
+
+	nav a{
+		margin: 35px;
+		font-size: 20px;
+	}
+
+	aside {
+		margin-left: 0;
+		width: 90%;
+	}
+}
